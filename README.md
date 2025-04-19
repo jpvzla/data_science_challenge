@@ -10,19 +10,6 @@
 * Este análisis utiliza las sentencias, funciones y librerías que ofrece Python como lenguaje para la evaluación, manipulación y presentación de la información.
 * Para la obtención y manipulación de los datos se utilizaron funciones propias de Python y rutinas creadas para recorren las estructuras de datos.
 
-## Variables y su valor de inicio
-   * amigos = []
-     * Almacena los nombres incluídos en el juego para el sorteo. 
-   * seleccionados = [] 
-     * Almacena los nombres seleccionados durante el sorteo.   
-   * nombreAmigo=""
-     * Almacena el nombre proveniente del INPUT. 
-   * registrarAmigo = 1
-     * Almacena los valores 0 o 1. 
-     * Sí se ha iniciado el sorteo, el valor de la variable pasa a 0, para evitar que se incluyan más nombres. Mientras no se inicie el sorteo la variable permanece con el valor 1.
-   * elementoAleatorio = 0
-     * Almacena el valor proveniente de Math.floor(Math.random() x amigos.length) que genera el valor aleatorio entre 0 y n-1 nombres, incluidos para el sorteo. 
-
 ## Tecnologías utilizadas
    * Google Colaboratory
      * Código Python 
